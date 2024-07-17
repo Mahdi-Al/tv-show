@@ -4,3 +4,6 @@ body {
 article {
   height: 100% !important;
 }
+h1 {
+  font-size: x-large !important;
+}
