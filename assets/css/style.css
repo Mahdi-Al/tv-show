@@ -1,3 +1,7 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
 body {
   background: rgb(50, 51, 54);
 }
@@ -6,4 +10,25 @@ article {
 }
 h1 {
   font-size: x-large !important;
+}
+
+.carousel {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.carousel-item {
+  display: flex;
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+}
+#bg-img {
+  /* width: 100% !important; */
+  margin-top: 200px;
+  margin-right: 400px !important;
+}
+.relative {
+  width: 100% !important;
 }
